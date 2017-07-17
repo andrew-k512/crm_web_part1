@@ -1,9 +1,16 @@
 
+    <div class="pinkbar">
+      <h4>There are 5 contacts</h4>
+
+    </div>
+    <div class="contact-list">
+      <% @contacts.each do |contact| %>
       <ul>
-        <% @contacts.each do |contact| %>
-          <li><%= contact.first_name %> <%= contact.last_name %>,&nbsp;&nbsp;<%= contact.email %>
-          </li>
-        <% end %>
+
+        <li><%= contact.first_name %> <%= contact.last_name %>,&nbsp;&nbsp;<%= contact.email %><br>
+          <a class="edit" href="#">Edit</a>  <p class="edit">|</p>  <a class="edit" href="#">Delete</a>
+        </li>
+
       </ul>
-    <br>
-    <a href="/">Go to Home Page</a>
+      <% end %>
+    </div>

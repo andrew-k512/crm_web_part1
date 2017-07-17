@@ -48,20 +48,77 @@ nav li {
   }
 
 nav li a:hover {
- color: #ca5353;
+ color: #ec7f7f;
 }
 
+
+
+/*--------Body content styling--------------------------*/
+
+main {
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+  min-height: 400px;
+}
+
+div.pinkbar {
+  background-color: #ec7f7f;
+  width: 100%;
+  margin-top: 20px;
+
+}
+div.pinkbar h4 {
+  padding: 20px;
+  font-size: 2em;
+}
+
+p {
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 290px;
+  font-size: 2em;
+}
+
+div.contact-list ul {
+  list-style-type: none;
+  padding: 0px;
+
+
+}
+
+div.contact-list li {
+  list-style-type: none;
+  padding: 35px;
+  margin-top: 20px;
+  background-color: #3ef7ef;
+  font-size: 2em;
+  font-family: Arial, sans-serif;
+  font-weight: 700;
+}
+
+.edit {
+  font-size: 20px;
+  display: inline-block;
+  padding: 0px;
+}
+
+/* ----------- Footer ----------- */
 footer {
   background-color: black;
   color: white;
   font-family: Arial, sans-serif;
   text-align: center;
   padding: 20px;
-  position: absolute;
+  position: relative;
   bottom: 0px;
   left: 0px;
   width: 100%;
   margin-top: 20px;
 }
 
-/*--------Body content styling--------------------------*/
+footer p {
+padding: 10px;
+font-size: 1em;
+}
