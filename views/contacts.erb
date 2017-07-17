@@ -1,10 +1,17 @@
+<% @amount_of_contacts = 0 %>
+<% @contacts.each do |contact| %>
+<% @amount_of_contacts += 1 %>
+<% end %>
+
 
     <div class="pinkbar">
-      <h4>There are 5 contacts</h4>
+      <h4>There are</h4><h4 class="emphasis"><%= p @amount_of_contacts %></h4><h4>contacts</h4>
 
     </div>
     <div class="contact-list">
+
       <% @contacts.each do |contact| %>
+
       <ul>
 
         <li><%= contact.first_name %> <%= contact.last_name %>,&nbsp;&nbsp;<%= contact.email %><br>
