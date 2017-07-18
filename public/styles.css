@@ -20,6 +20,7 @@ h1 {
     padding:  20px;
   }
 
+
 nav ul {
   list-style-type: none;
   position: relative;
@@ -73,6 +74,19 @@ div.pinkbar h4 {
   padding: 20px;
   font-size: 2em;
   display: inline-block;
+}
+h1.special {
+  background-color: #ec7f7f;
+  text-align: center;
+  position: relative;
+  left: 0px;
+  top: 0px;
+  display: block;
+  font-size: 2.5em;
+  color: black;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding:  20px;
 }
 div.pinkbar h4.emphasis {
   font-weight: 700;
